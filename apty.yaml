@@ -1,0 +1,16 @@
+---
+- name: Playbook - Install figlet/cowsay/bastet    
+  hosts: planetexpress:!farnsworth   
+  connection: ssh     
+  gather_facts: yes   
+
+  tasks:                              
+  - name: using apt to install figlet  
+    apt:                     
+        name:  
+        - figlet         
+        - cowsay
+        - bastet
+        state: present
+    become: yes              
+

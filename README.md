@@ -8,7 +8,7 @@ Ansible Playbooks for DNS and GTM automation
 ### Prerequisites
 
 "how to install python and python3 using apt."
-
+learn how to version control projects with git
 ## Built With
 
 * [Python](https://www.python.org/) - The coding language used
